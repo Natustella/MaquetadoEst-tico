@@ -107,3 +107,11 @@ circle.progress-6:after {
 button {
     border-color: green !important;
 }
+
+textarea {
+    background: white;
+    margin-top: 9px;
+}
+.footer-right {
+    text-align: right;
+}

@@ -395,19 +395,23 @@
 
 <footer>
 <!-- Button Contact -->
-<div>
-  <div class="d-grid gap-2 col-6 mx-auto">
+<div class="footer-right">
     <button class="btn btn-primary" type="button"><i class="fa-solid fa-envelope"></i> &nbsp; Contáctame</i>
       <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email@dominio.com" required>
+      </div>  
+      <div class="mb-3">  
+        <input type="phone" class="form-control" placeholder="Phone Number" required>
       </div>
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Note</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea name="message" placeholder="Message"></textarea>
       </div>
-    </button>  
-  </div>
+      <div class="mb-3">
+        <button type="button" class="btn btn-primary">Enviar</button>
+      </div>
+ </div>
+ <br/>
+
 </footer>
 
 
