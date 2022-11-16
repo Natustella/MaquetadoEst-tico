@@ -18,10 +18,12 @@ color: #155656;
 }
 *{
     background-color:#dbcfbd;
+    font-family: 'Open Sans', sans-serif;
 }
+
 .titulo {
     padding-top: 5px;
-    padding-left: 100px;
+    padding-left: 80px;
 }
 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
     background-color: #dbcfbd;
@@ -114,4 +116,8 @@ textarea {
 }
 .footer-right {
     text-align: right;
+}
+.copyright {
+    text-align: center;
+    font-size: small;
 }
